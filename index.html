@@ -7,36 +7,61 @@
     <title>Restaurante de Edwin</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="icons/font/bootstrap-icons.css">  
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">  
 </head>
 
     <body>
      <header>
-        <nav id="header-nav" class="navbar ">
+        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light ">
+           
             <div class="container">
+                
                 <div class="navbar-brand">
-                    <a href="index.html" class="">
+                    <a href="index.html" class="float-start d-none d-sm-block">
                         <div id="logo-img" alt="Logo Image"></div>
                     </a>
+                    <div class=" navbar-brand">
+                        <a href="index.html"><h1>Restaurante Edwin</h1></a>
+                        <p><img src="images/Kosher_certification_logo.png" alt="Certificacion Kosher" id="logocert">
+                            <span class="text-black-50">Kosher Certified</span>
+                        </p>  
+                        
+                    </div>  
+                    
 
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                          </li>
+                        </ul>
+                      </div>
+                    
                 </div>
-              <span class="navbar-text text-black-50">
-                Navbar text with an inline element
-              </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>  
             </div>
           </nav>
-       <!-- <nav  class="nav navbar-brand">
-            <div class="container">
-
-            </div>
-        </nav>
-        -->
      </header>
 
         <!--JQuery (Bootstrap JS Plugins de los cuales depende)-->
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
+
+        <a target="blank" href="https://wa.me/+573108128068?text= hello what are you doing"> <i class="bi bi-whatsapp " role="img" aria-label="WhatsApp"></i></a>
     </body>
 </html>

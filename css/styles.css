@@ -18,3 +18,46 @@ body {
     height: 150px;
     margin: 10px 15px 10px 0;
 }
+
+#logocert {
+    height: 50px;
+    width: 50px;
+    /*margin: top rigth bottom left*/
+    margin: 10px 0px 0px 0px ;
+}
+
+.navbar-brand{
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Titulo del Restaurante*/
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus , .navbar-brand a:any-link{
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span{
+    vertical-align: middle;
+}
+
+.bi-whatsapp {
+    font-size: 40px;
+    color: greenyellow;
+}
